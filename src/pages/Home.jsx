@@ -20,7 +20,6 @@ import Footer from "../components/Footer/Footer";
 const Home = () => {
   return (
     <>
-      <Header />
       {/* ========== HERO SECTION ========== */}
       <section>
         <Container>
@@ -168,8 +167,6 @@ const Home = () => {
       </section>
       {/* ========== TESTIMONIAL SECTION END ================== */}
       <NewsLetter />
-
-      <Footer />
     </>
   );
 };
